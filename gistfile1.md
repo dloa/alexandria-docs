@@ -30,7 +30,7 @@ Remember, it is **extremely important** that you change the username and passwor
 **note:** the Alexandria library is indexed in the Florincoin blockchain, so if you are interested in browsing it in an entirely peer-to-peer manner, you must be running a synced Florincoin-QT wallet.
 
 ####Download Alexandria-nightly-20150528-69e346b-OSX.zip
-It can be found [here](www.happyowlstudio.com)  
+It can be found [here](www.blocktech.com)  
 Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69e346b-OSX` to a directory of your choosing.   
 In terminal, do `export F_USER=username`, then do `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
 Then in terminal, `cd` into `Alexandria-nightly-20150528-69e346b-OSX`., then do `./libraryd` to launch Alexandria's library daemon.
