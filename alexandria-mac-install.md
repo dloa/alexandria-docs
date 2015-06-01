@@ -14,7 +14,7 @@ It can be found [here](https://blocktech.slack.com/files/devon/F0534V9LQ/alexand
 Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69e346b-OSX` to a directory of your choosing.
 
 ####3) Download Florincoin wallet
-####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done to send tips and publish content in Alexandria  
+####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done in order to send tips and publish content in Alexandria  
 Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  There is a blockchain bootstrap available to download if you'd like to speed up the initial sync.  
 Open the wallet and let it fully sync before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
 
