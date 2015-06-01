@@ -18,7 +18,7 @@ Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69
 Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  There is a blockchain bootstrap available to download if you'd like to speed up the initial sync.  
 Open the wallet and let it fully sync before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
 
-####4) make a florincoin.conf file (note, this must be done to send tips and publish content in Alexandria)   
+####4) make a florincoin.conf file   
 Once your Florincoin-QT wallet has fully synced, quit it and navigate in the Finder to `~/Library/Application Support/Florincoin/`  
   
 Create a new config file called `florincoin.conf` that includes the following code block.  
