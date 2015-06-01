@@ -8,7 +8,6 @@ in terminal `cd` to `ipfs/` folder
 do `mv ipfs /usr/local/bin/ipfs`  
 do ` ipfs version` and it will return it's version number if correctly installed.  
 do `ipfs daemon` to well, um, launch the IPFS daemon.   
-**note:** media in Alexandria is now distributed through the IPFS DHT, so you must be running the daemon to play content.
 
 ####2) Download Alexandria-nightly-20150528-69e346b-OSX.zip
 It can be found [here](https://blocktech.slack.com/files/devon/F0534V9LQ/alexandria-nightly-20150528-69e346b-osx.zip)  
