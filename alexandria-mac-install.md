@@ -103,4 +103,4 @@ sync at 22.96% </code></pre>
 ####6) Enter the Decentralized Library of Alexandria 
 Open `Alexandria.app` and enjoy the library.
 
-**Remember, in the current build, you must be running the `Florincoin-QT` wallet and `libraryd` to browse the Library index in a p2p manner, and you must be running `IPFS daemon` to stream or download content in the Library.
+**Remember, in the current build, you must be running the `Florincoin-QT` wallet and `libraryd` to browse the Library index in a p2p manner, and you must be running `IPFS daemon` to stream or download content in the Library.**
