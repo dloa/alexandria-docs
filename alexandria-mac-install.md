@@ -61,7 +61,7 @@ Remember, it is **extremely important** that you change the username and passwor
 
 ####5) Run the Alexandria library daemon
 In terminal, do `export F_USER=username`, then do `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
-Then in terminal, `cd` into `Alexandria-nightly-20150528-69e346b-OSX`., then do `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
+Then in terminal, `cd` into `Alexandria-nightly-20150528-69e346b-OSX`, then do `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
 
 <pre> <code>
 $ export F_USER=[myusername]
@@ -102,3 +102,5 @@ sync at 22.96% </code></pre>
 
 ####6) Enter the Decentralized Library of Alexandria 
 Open `Alexandria.app` and enjoy the library.
+
+**Remember, in the current build, you must be running the `Florincoin-QT` wallet and `libraryd` to browse the Library index in a p2p manner, and you must be running `IPFS daemon` to stream or download content in the Library.
