@@ -41,7 +41,7 @@ Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69
 ####3) Download Florincoin wallet
 ####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done in order to send tips and publish content in Alexandria  
 Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  There is a blockchain bootstrap available to download if you'd like to speed up the initial sync.  
-Open the wallet and let it fully sync before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
+Open the wallet and **let it fully sync** before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
 
 ####4) Enable RPC-access to your Florincoin-QT wallet with a florincoin.conf file    
 Once your Florincoin-QT wallet has fully synced, quit it and navigate in the Finder to `~/Library/Application Support/Florincoin/`  
@@ -62,6 +62,43 @@ Remember, it is **extremely important** that you change the username and passwor
 ####5) Run the Alexandria library daemon
 In terminal, do `export F_USER=username`, then do `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
 Then in terminal, `cd` into `Alexandria-nightly-20150528-69e346b-OSX`., then do `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
+
+<pre> <code>
+$ export F_USER=[myusername]
+$ export F_TOKEN=[mysuperpassword]
+$ ./libraryd
+           _                          _      _
+     /\   | |                        | |    (_)
+    /  \  | | _____  ____ _ _ __   __| |_ __ _  __ _
+   / /\ \ | |/ _ \ \/ / _` | '_ \ / _` | '__| |/ _` |
+  / ____ \| |  __/>  < (_| | | | | (_| | |  | | (_| |
+ /_/    \_\_|\___/_/\_\__,_|_| |_|\__,_|_|  |_|\__,_|
+
+ Blocktech                                       v0.1
+
+Error opening configuration file.
+Error decoding JSON from config file.
+opening database ./db/sync89.db?cache=shared&mode=wrc... done opening DB!
+creating tables and triggers if they don't exist...  done!
+2015/06/02 10:38:58 Listening on port 41289
+
+LOADED PROTOCOL: alexandria-media
+
+current block chain height (rpc): 1214348
+current max(block) from database: 1211818
+
+syncing 2530 blocks between 1211819 and 1214348
+first, checking past 256 blocks for reorg... 
+> no reorg found!
+
+
+sync at 0.00%
+sync at 3.20%
+sync at 7.15%
+sync at 11.11%
+sync at 15.06%
+sync at 19.01%
+sync at 22.96% </code></pre>
 
 ####6) Enter the Decentralized Library of Alexandria 
 Open `Alexandria.app` and enjoy the library.
