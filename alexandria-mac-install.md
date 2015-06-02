@@ -41,7 +41,7 @@ Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69
 ####3) Download Florincoin wallet
 ####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done in order to send tips and publish content in Alexandria  
 Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  There is a blockchain bootstrap available to download if you'd like to speed up the initial sync.  
-Open the wallet and <bold>let it fully sync</bold> before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
+Open the wallet and let it fully sync before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
 
 ####4) Enable RPC-access to your Florincoin-QT wallet with a florincoin.conf file    
 Once your Florincoin-QT wallet has fully synced, quit it and navigate in the Finder to `~/Library/Application Support/Florincoin/`  
