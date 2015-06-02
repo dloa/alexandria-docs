@@ -4,9 +4,34 @@
 ####note, this must be done to play content in Alexandria  
 visit [http://ipfs.io/docs/install](http://ipfs.io/docs/install) and download a current prebuilt package of IPFS for Mac OS X  
 Unzip the downloaded archive   
-in terminal `cd` to `ipfs/` folder  
-do `mv ipfs /usr/local/bin/ipfs`  
-do ` ipfs version` and it will return it's version number if correctly installed.  
+in terminal `cd` into `/ipfs/` folder  
+do `mv ipfs /usr/local/bin/`   
+do `ipfs init`   
+<pre><code>initializing ipfs node at /Users/jbenet/.go-ipfs
+generating 4096-bit RSA keypair...done
+peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z
+to get started, enter:
+
+  ipfs cat /ipfs/QmPXME1oRtoT627YKaDPDQ3PwA8tdP9rWuAAweLzqSwAWT/readme </code></pre>   
+
+Note the hash there may differ. If it does, use the one you got.   
+Now try:
+`ipfs cat /ipfs/QmPXME1oRtoT627YKaDPDQ3PwA8tdP9rWuAAweLzqSwAWT/readme`
+
+And you should get something like this:
+<pre><code>Hello and Welcome to IPFS!
+
+██╗██████╗ ███████╗███████╗
+██║██╔══██╗██╔════╝██╔════╝
+██║██████╔╝█████╗  ███████╗
+██║██╔═══╝ ██╔══╝  ╚════██║
+██║██║     ██║     ███████║
+╚═╝╚═╝     ╚═╝     ╚══════╝
+
+If you're seeing this, you have successfully installed
+IPFS and are now interfacing with the ipfs merkledag!</code></pre>
+  
+do `ipfs version` and it will return it's version number if correctly installed.  
 do `ipfs daemon` to well, um, launch the IPFS daemon.   
 
 ####2) Download Alexandria-nightly-20150528-69e346b-OSX.zip
