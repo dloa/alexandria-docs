@@ -40,14 +40,14 @@ Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69
 
 ####3) Download Florincoin wallet
 ####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done in order to send tips and publish content in Alexandria  
-Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  There is a blockchain bootstrap available to download if you'd like to speed up the initial sync.  
-Open the wallet and **let it fully sync** before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
+Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  
 
 ####4) Enable RPC-access to your Florincoin-QT wallet with a florincoin.conf file    
-Once your Florincoin-QT wallet has fully synced, quit it and navigate in the Finder to `~/Library/Application Support/Florincoin/`  
+Navigate in the Finder to `~/Library/Application Support/Florincoin/`  
   
 Create a new config file called `florincoin.conf` that includes the following code block.  
-<pre><code>rpcuser=username
+<pre><code>
+rpcuser=username
 rpcpassword=password
 rpcallowip=127.0.0.1
 rpcallowip=192.168.*.*
@@ -56,7 +56,7 @@ server=1
 daemon=1
 txindex=1</code></pre>
 
-Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` and relaunch the Florincoin-QT wallet.   
+Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` and relaunch the Florincoin-QT wallet and **let it fully sync** before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
 **note:** the Alexandria library is indexed in the Florincoin blockchain, so if you are interested in browsing it in an entirely peer-to-peer manner, you must be running a synced Florincoin-QT wallet.
 
 ####5) Run the Alexandria library daemon
