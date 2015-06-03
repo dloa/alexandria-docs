@@ -5,7 +5,7 @@
 visit [http://ipfs.io/docs/install](http://ipfs.io/docs/install) and download a current prebuilt package of IPFS for Mac OS X  
 Unzip the downloaded archive   
 in a terminal window `cd` into your recently unzipped `ipfs` folder  
-Now enter `mv ipfs /usr/local/bin/` to move the ipfs binary to where the system can execute it   
+Now enter `mv ipfs /usr/local/bin/ipfs` to move the ipfs binary to where the system can execute it   
 Now init the repo by trying `ipfs init`   
 <pre><code>initializing ipfs node at /Users/jbenet/.go-ipfs
 generating 4096-bit RSA keypair...done
