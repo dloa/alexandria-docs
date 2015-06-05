@@ -1,8 +1,6 @@
 ###Known issues in current ALEXANDRIA build  
 
-**v.0.4.1 alpha (20150528)**  
-* **MAJOR BUG:** When a user clicks Tip on a media detail page, they are given 4 options for amount, 3 suggested amounts and a custom field. Tips sent using one of the 3 suggest amounts work properly, but custom amount field is not being calculated into accurate crypto amounts at this time (resulting in significantly more FLO than the requested USD amount), so please avoid this function until this is resolved  
-* **MAJOR BUG:**  Users can send each other Florincoin from within the wallet view, but USD-FLO amounts are being inaccurately calculated, so please avoid this feature until this is resolved  
+**v.0.4.1 alpha (20150604)**  
 * Before attempting to use a Pay-What-You-Want Wall, users must log into their wallet through the user menu or by attempting to send a tip  
 * Magnet button on media detail pages (for Downloading media) does not work with IPFS files  
 * Get balance after wallet actions in Mac build sometimes crashes Alexandria  
@@ -15,6 +13,12 @@
 * Partial search on Publisher for Name does not return correct results  
     
 ###Alpha Version Changes  
+**(20150604)**
+* Things view now displays a poster image (if included in the submission as an IPFS hash)
+* Recipes view now includes an embed of the recipe (if submitted as an HTML file as an IPFS hash)
+* Bug squashed: using the custom field when sending a tip sent the wrong amount
+* Bug squashed: sending Florincoin from the wallet view sent the wrong amount
+
 **v.0.4.1 alpha (20150528)**  
 * Users can now publish media! (requires an up to date Florincoin-QT wallet and user must be running Alexandria protocol binary (currently Mac only)  
 * Media files are now handled by the IPFS DHT instead of the bittorrent mainline DHT, so all users must be running the IPFS daemon to stream embedded video and audio files  
