@@ -72,7 +72,7 @@ Remember, it is **extremely important** that you change the username and passwor
 **note:** the Alexandria library is indexed in the Florincoin blockchain, so if you are interested in browsing it in an entirely peer-to-peer manner, you must be running a synced Florincoin-QT wallet.
 
 ####5) Download and Run the Alexandria library daemon
-Using IPFS, download the Alexandria library daemon by going to the following URL in your web browser: http://localhost:8080/ipfs/QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC   
+Using IPFS, download the Alexandria library daemon by going to the following URL in your web browser: [http://localhost:8080/ipfs/QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC](http://localhost:8080/ipfs/QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC)   
 A file called `QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC.zip` will be downloaded - unzip it to extract the folder `Alexandria_Library_Daemon`.
 In a new terminal window, enter `export F_USER=username`, and then `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
 In the same terminal window, `cd` into the `Alexandria_Library_Daemon` folder, and enter `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
