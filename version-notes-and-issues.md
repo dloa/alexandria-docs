@@ -14,7 +14,7 @@
     
 ###Alpha Version Changes  
 **(20150604)**
-* Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the poster image field of the submission)
+* Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the Poster Frame Filename field of the submission)
 * Recipes view now includes an embed of the recipe
 * Bug squashed: using the custom field when sending a tip sent the wrong amount
 * Bug squashed: sending Florincoin from the wallet view sent the wrong amount
