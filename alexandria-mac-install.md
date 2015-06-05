@@ -11,6 +11,8 @@ visit [http://ipfs.io/docs/install](http://ipfs.io/docs/install) and download a 
 Unzip the downloaded archive   
 in a terminal window `cd` into your recently unzipped `ipfs` folder  
 Now input `mv ipfs /usr/local/bin/ipfs` to move the ipfs binary to where the system can execute it   
+And then try `ipfs version` and it will return it's version number if correctly installed  
+
 <pre><code>
 computer:~$ user cd ~/Downloads/ipfs/ 
 computer:ipfs user$ ls
@@ -46,7 +48,6 @@ And you should get something like this:
 If you're seeing this, you have successfully installed
 IPFS and are now interfacing with the ipfs merkledag!</code></pre>
   
-do `ipfs version` and it will return it's version number if correctly installed.  
 do `ipfs daemon` to launch the IPFS daemon - necessary step to stream media in Alexandria.   
 
 ####3) Download Florincoin wallet
@@ -56,7 +57,7 @@ Visit [florincoin.org](http://florincoin.org/) to download the current OSX build
 ####4) Enable RPC-access to your Florincoin-QT wallet with a florincoin.conf file    
 Navigate in the Finder to `~/Library/Application Support/Florincoin/`  
   
-Create a new config file called `florincoin.conf` that includes the following code block.  
+Create a new config file called `florincoin.conf` that includes the following code block (Or use the provided sample file). Please note, if you create this file with textedit, it may attempt to hide a .txt extension on the file, which will cause it to fail.  
 <pre><code>
 rpcuser=username
 rpcpassword=password
@@ -67,12 +68,14 @@ server=1
 daemon=1
 txindex=1</code></pre>
 
-Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` and relaunch the Florincoin-QT wallet and **let it fully sync** before moving on to the next step. This may take a few hours (or a few days if your network is slow)   
+Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` and relaunch the Florincoin-QT wallet and **let it fully sync**. This may take a few hours (or a few days if your network is slow)   
 **note:** the Alexandria library is indexed in the Florincoin blockchain, so if you are interested in browsing it in an entirely peer-to-peer manner, you must be running a synced Florincoin-QT wallet.
 
-####5) Run the Alexandria library daemon
-In terminal, do `export F_USER=username`, then do `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
-Then in terminal, `cd` into `Alexandria-nightly-20150528-69e346b-OSX`, then do `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
+####5) Download and Run the Alexandria library daemon
+Using IPFS, download the Alexandria library daemon by going to the following URL in your web browser: http://localhost:8080/ipfs/QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC   
+A file called `QmYggCwuqqmGScfkYV6PaDhYK9hKdjdGrf13ewp1vU1MJC.zip` will be downloaded - unzip it to extract the folder `Alexandria_Library_Daemon`.
+In a new terminal window, enter `export F_USER=username`, and then `export F_TOKEN=password`.  Remember to change the username and password to what you used in `florincoin.conf`.  
+In the same terminal window, `cd` into the `Alexandria_Library_Daemon` folder, and enter `./libraryd` to launch Alexandria's library daemon. (note, this must be done to send tips and publish content in Alexandria)
 
 <pre> <code>
 $ export F_USER=[myusername]
