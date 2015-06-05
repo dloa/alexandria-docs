@@ -1,11 +1,26 @@
 ##Alexandria Installation Instructions  
 
-####1) Install IPFS
+####1) Download Alexandria-Alpha-20150604-OSX.zip
+If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://blocktech.slack.com/files/devon/F0534V9LQ/alexandria-nightly-20150528-69e346b-osx.zip)  
+If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
+Unzip the downloaded archive and save the folder `Alexandria-Alpha-20150604-OSX` to a directory of your choosing.
+
+####2) Install IPFS
 ####note, this must be done to play content in Alexandria  
 visit [http://ipfs.io/docs/install](http://ipfs.io/docs/install) and download a current prebuilt package of IPFS for Mac OS X  
 Unzip the downloaded archive   
 in a terminal window `cd` into your recently unzipped `ipfs` folder  
-Now enter `mv ipfs /usr/local/bin/ipfs` to move the ipfs binary to where the system can execute it   
+Now input `mv ipfs /usr/local/bin/ipfs` to move the ipfs binary to where the system can execute it   
+<pre><code>
+computer:~$ user cd ~/Downloads/ipfs/ 
+computer:ipfs user$ ls
+dist	ipfs
+computer:ipfs user$ mv ipfs /usr/local/bin/ipfs
+computer:ipfs user$ ls
+dist
+computer:ipfs user$ ipfs version
+ipfs version 0.3.4
+</code></pre>   
 Now init the repo by trying `ipfs init`   
 <pre><code>initializing ipfs node at /Users/jbenet/.go-ipfs
 generating 4096-bit RSA keypair...done
@@ -33,10 +48,6 @@ IPFS and are now interfacing with the ipfs merkledag!</code></pre>
   
 do `ipfs version` and it will return it's version number if correctly installed.  
 do `ipfs daemon` to launch the IPFS daemon - necessary step to stream media in Alexandria.   
-
-####2) Download Alexandria-nightly-20150528-69e346b-OSX.zip
-It can be found [here](https://blocktech.slack.com/files/devon/F0534V9LQ/alexandria-nightly-20150528-69e346b-osx.zip)  
-Unzip the downloaded archive and save the folder `Alexandria-nightly-20150528-69e346b-OSX` to a directory of your choosing.
 
 ####3) Download Florincoin wallet
 ####note, you can skip steps 3-5 if you just wish to browse the library, but they must be done in order to send tips and publish content in Alexandria  
