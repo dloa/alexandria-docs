@@ -1,7 +1,7 @@
 ##Alexandria Installation Instructions  
 
 ####1) Download Alexandria-Alpha-20150604-OSX.zip
-If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://blocktech.slack.com/files/devon/F0534V9LQ/alexandria-nightly-20150528-69e346b-osx.zip)  
+If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://blocktech.slack.com/files/devon/F0608DCG7/alexandria-alpha-20150604-osx.zip)  
 If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
 Unzip the downloaded archive and save the folder `Alexandria-Alpha-20150604-OSX` to a directory of your choosing.
 
