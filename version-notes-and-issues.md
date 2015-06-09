@@ -6,20 +6,21 @@
 * VLC plugin not fully implemented in WINDOWS and LINUX  
 * "Back" button is sometimes unreliable on first click  
 * PDF embed not yet working  
+* download link (magnet icon) does not work  
 * No linux Florincoin-QT wallet exists  
 * No settings UI  
 * Media loading status indicator not yet implemented  
 * Partial search on Publisher for Name does not return correct results  
     
 ###Alpha Version Changes  
-**v.0.4.2 alpha 2015-06-09**
-* API defaults set to gateway with switch to local
-
-**2015-06-04**
-* Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the Poster Frame Filename field of the submission)
-* Recipes view now includes an embed of the recipe
-* Bug squashed: using the custom field when sending a tip sent the wrong amount
-* Bug squashed: sending Florincoin from the wallet view sent the wrong amount
+**v.0.4.2 alpha 2015-06-09**  
+* API defaults set to gateway with switch to local  
+  
+**2015-06-04**  
+* Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the Poster Frame Filename field of the submission)  
+* Recipes view now includes an embed of the recipe  
+* Bug squashed: using the custom field when sending a tip sent the wrong amount  
+* Bug squashed: sending Florincoin from the wallet view sent the wrong amount  
 
 **v.0.4.1 alpha 2015-05-28**  
 * Users can now publish media! (requires an up to date Florincoin-QT wallet and user must be running Alexandria protocol binary (currently Mac only)  
