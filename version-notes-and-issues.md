@@ -1,18 +1,20 @@
 ###Known issues in current ALEXANDRIA build  
 
-**v.0.4.1 alpha 2015-06-04**  
+**v.0.4.2 alpha 2015-06-09**  
 * Before attempting to use a Pay-What-You-Want Wall, users must log into their wallet through the user menu or by attempting to send a tip  
-* Magnet button on media detail pages (for Downloading media) does not work with IPFS files  
 * Get balance after wallet actions in Mac build sometimes crashes Alexandria  
 * VLC plugin not fully implemented in WINDOWS and LINUX  
 * "Back" button is sometimes unreliable on first click  
 * PDF embed not yet working  
 * No linux Florincoin-QT wallet exists  
 * No settings UI  
-* Media loading status and seed count indicators not yet implemented  
+* Media loading status indicator not yet implemented  
 * Partial search on Publisher for Name does not return correct results  
     
 ###Alpha Version Changes  
+**v.0.4.2 alpha 2015-06-09**
+* API defaults set to gateway with swithc to local
+
 **2015-06-04**
 * Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the Poster Frame Filename field of the submission)
 * Recipes view now includes an embed of the recipe
