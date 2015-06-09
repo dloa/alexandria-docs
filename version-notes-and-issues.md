@@ -12,6 +12,9 @@
 * Partial search on Publisher for Name does not return correct results  
     
 ###Alpha Version Changes  
+**v.0.4.2 alpha 2015-06-09**
+* API defaults set to gateway with swithc to local
+
 **2015-06-04**
 * Things view now includes an embed of the thing's poster image (ipfs hash of the image should be included in the Poster Frame Filename field of the submission)
 * Recipes view now includes an embed of the recipe
