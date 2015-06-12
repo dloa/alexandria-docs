@@ -48,4 +48,5 @@ sync at 15.06%
 sync at 19.01%
 sync at 22.96% </code></pre>
 
-####4) Once this has reach 100%, launch your `Alexandria.app` browser and click the word `Gateway` to switch to `local` mode and you'll be browsing the library decentralized...ly.
+####4) Decentralize  
+Once this has reached 100%, open your `Alexandria.app` browser and click the word `Gateway` to switch to `local` mode and you'll be browsing the library decentralized...ly.
