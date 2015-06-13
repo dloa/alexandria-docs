@@ -5,7 +5,8 @@ If you are in the alpha testers Slack chatroom, it can be downloaded by clicking
 If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
 Unzip it to extract the folder `Alexandria_Library_Daemon`   
 
-####2) Make sure your Florincoin wallet is fully synced and that you have enabled RPC-access to your wallet with a florincoin.conf file. If you have not done so, click [here](https://github.com/dloa/alexandria-docs/blob/master/florincoin-mac-install.md) for instructions.
+####2) Make sure your Florincoin wallet is fully synced and that you have enabled RPC-access to your wallet with a florincoin.conf file.  
+If you have not done so, click [here](https://github.com/dloa/alexandria-docs/blob/master/florincoin-mac-install.md) for instructions.
 
 ####3) Start the daemon
 In a new terminal window, enter `export F_USER=username`, and then `export F_TOKEN=password`.  These fields must match the username and password that you used in `florincoin.conf`.  
