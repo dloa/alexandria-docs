@@ -3,13 +3,13 @@
 ####1) Download the latest build
 If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://files.slack.com/files-pri/T025C7KDP-F06587SK0/download/libraryd-linux64.tar.xz)  
 If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
-Unzip it to extract the folder `Alexandria_Library_Daemon`   
+Unzip it to extract the binary `libraryd`   
 
 ####2) Make sure your Florincoin wallet is fully synced and that you have enabled RPC-access to your wallet with a florincoin.conf file. If you have not done so, click here for instructions.
 
 ####3) Start the daemon
 In a new terminal window, enter `export F_USER=username`, and then `export F_TOKEN=password`.  These fields must match the username and password that you used in `florincoin.conf`.  
-In the same terminal window, `cd` into the `Alexandria_Library_Daemon` folder, and enter `./libraryd` to launch Alexandria's library daemon.
+In the same terminal window, `cd` into the directory that contains the `libraryd` binary, and enter `./libraryd` to start Alexandria's library daemon.
 
 <pre> <code>
 $ export F_USER=[myusername]
@@ -49,4 +49,4 @@ sync at 19.01%
 sync at 22.96% </code></pre>
 
 ####4) Decentralize  
-Once this has reached 100%, open your `Alexandria.app` browser and click the word `Gateway` to switch to `local` mode and you'll be browsing the library decentralized...ly.
+Once this has reached 100%, open your `Alexandria` browser and click the word `Gateway` to switch to `local` mode and you'll be browsing the library decentralized...ly.
