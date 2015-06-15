@@ -1,7 +1,7 @@
-##Library Daemon (libraryd) Installation Instructions for Mac  
+##Library Daemon (libraryd) Installation Instructions for Linux 64-bit  
 
 ####1) Download the latest build
-If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://files.slack.com/files-pri/T0457K60S-F069Q017Y/download/alexandria_library_daemon-20150528.zip)  
+If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://files.slack.com/files-pri/T025C7KDP-F06587SK0/download/libraryd-linux64.tar.xz)  
 If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
 Unzip it to extract the folder `Alexandria_Library_Daemon`   
 
