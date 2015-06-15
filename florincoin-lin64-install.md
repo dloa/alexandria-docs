@@ -1,7 +1,7 @@
 ##Florincoin Installation Instructions for Linux 64-bit (tested on Ubuntu 14.04)  
 
 ####1) Download Florincoin wallet
-Click [here](https://slack-files.com/T0457K60S-F06B895SM-fba5b0403d)   
+Click [here](https://slack-files.com/T0457K60S-F06B895SM-fba5b0403d) to download the rar package. Unzip and install Florincoin-QT and/or florincoind. Launch either of the wallets and let it sync for a few minutes - you want to make sure that the directoty `~/.florincoin/` has been created, but you do not need to let the wallet fully sync (in fact you shouldn't, as you'll need to do so at a later step and it will start over from the beginning at that time) before exiting it.   
 
 ####2) Enable RPC-access to your Florincoin-QT/florincoind wallet with a florincoin.conf file    
 Navigate to `~/.florincoin/`  
