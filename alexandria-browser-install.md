@@ -9,7 +9,7 @@ Double-click `Alexandria`
 ####That's it, that's all you have to do to browse and view content on the library. If you want to do so in an entirely p2p manner, or if you want to publish or send tips with comments, please continue on.   
 
 ####To send comments w/ tips
-You need to install the Florincoin wallet and enable RPC access - [instructions](https://github.com/dloa/alexandria-docs/blob/master/florincoin-mac-install.md)   
+You need to install the Florincoin wallet and enable RPC access - [mac osx instructions](https://github.com/dloa/alexandria-docs/blob/master/florincoin-mac-install.md) | [linux-64 instructions](https://github.com/dloa/alexandria-docs/blob/master/florincoin-lin64-install.md)   
 
 ####To publish to the Library   
-You'll need to install and setup IPFS - [instructions](https://github.com/dloa/alexandria-docs/blob/master/ipfs-install-setup.md) and install and setup the Alexandria Library Daemon (libraryd) - [instructions](https://github.com/dloa/alexandria-docs/blob/master/libraryd-mac-install.md)
+You'll need to install and setup IPFS - [instructions](https://github.com/dloa/alexandria-docs/blob/master/ipfs-install-setup.md) and install and setup the Alexandria Library Daemon (libraryd) - [mac osx instructions](https://github.com/dloa/alexandria-docs/blob/master/libraryd-mac-install.md) | [linux-64 instructions](https://github.com/dloa/alexandria-docs/blob/master/libraryd-linux64-install.md)
