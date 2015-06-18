@@ -1,8 +1,7 @@
 ##Library Daemon (libraryd) Installation Instructions for Linux 64-bit (Tested on Ubuntu 14.04)  
 
 ####1) Download the latest build of libraryd
-If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://slack-files.com/T0457K60S-F06B8J4KC-1ebf5ff598)  
-If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
+It can be downloaded by clicking [here](https://slack-files.com/T0457K60S-F06G1SGG7-690a04916f)  
 Unzip it to extract the binary `libraryd`   
 
 ####2) Make sure your Florincoin wallet is fully synced and that you have enabled RPC-access to your wallet with a florincoin.conf file. If you have not done so, click [here](https://github.com/dloa/alexandria-docs/blob/master/florincoin-lin64-install.md) for instructions.
