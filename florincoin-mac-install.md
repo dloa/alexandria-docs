@@ -12,6 +12,7 @@ rpcuser=username
 rpcpassword=password
 rpcallowip=127.0.0.1
 rpcallowip=192.168.*.*
+addnode=54.209.141.153
 rpcport=18322
 server=1
 daemon=1
