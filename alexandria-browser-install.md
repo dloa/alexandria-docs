@@ -1,8 +1,7 @@
 ##Alexandria Installation Instructions  
 
 ####1-step Alexandria browser install: Download, unzip and launch the latest build   
-If you are in the alpha testers Slack chatroom, it can be downloaded by clicking on your OS: [Mac OSX](https://dloa.slack.com/files/devonjames/F06FUQ8UD/alexandria-browser-v0_4_2_alpha-osx-daily-20150616a.zip) |  [Windows] (https://dloa.slack.com/files/devonjames/F069X55P1/alexandria-browser-v0_4_2_alpha-win.zip) | [Linux-64] (https://dloa.slack.com/files/devonjames/F069WC4KG/alexandria-browser-v0_4_2_alpha-linux64.tar.xz)  
-If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
+If you are in the alpha testers Slack chatroom, it can be downloaded by clicking on your OS: [Mac OSX](https://slack-files.com/T0457K60S-F06JXST1B-95e0546b05) |  [Windows] (https://slack-files.com/T0457K60S-F069X55P1-a78a466aa4) | [Linux-64] (https://slack-files.com/T0457K60S-F06JXK7ML-9363892261)  
 Unzip it to extract `Alexandria`   
 Double-click `Alexandria`
 
