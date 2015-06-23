@@ -1,18 +1,23 @@
 ###Known issues in current ALEXANDRIA build  
 
-**v.0.4.2 alpha 2015-06-09**  
+**v.0.4.2 alpha 2015-06-19**  
 * Before attempting to use a Pay-What-You-Want Wall, users must log into their wallet through the user menu or by attempting to send a tip  
 * Get balance after wallet actions in Mac build sometimes crashes Alexandria  
 * VLC plugin not fully implemented in WINDOWS and LINUX  
 * "Back" button is sometimes unreliable on first click  
 * PDF embed not yet working  
-* download link (magnet icon) does not work  
-* No linux Florincoin-QT wallet exists  
+* Download link (magnet icon) does not work  
 * No settings UI  
 * Media loading status indicator not yet implemented  
 * Partial search on Publisher for Name does not return correct results  
     
 ###Alpha Version Changes  
+**v.0.4.2 alpha 2015-06-19**  
+* Linux-64 Florincoin-QT and Florincoind wallet released - Linux users can now publish!
+* "Movies" artifact type re-added
+* PDF type provides a download button
+* "New Florincoin Address" button works
+
 **v.0.4.2 alpha 2015-06-09**  
 * API defaults set to gateway with switch to local  
   
