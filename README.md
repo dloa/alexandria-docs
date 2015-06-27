@@ -3,3 +3,4 @@ An open-source decentralized library for sharing and preserving art, history and
 
 [Installation Instructions](https://github.com/dloa/alexandria-docs/blob/master/alexandria-browser-install.md)  
 [Version Notes & Known Issues](https://github.com/dloa/alexandria-docs/blob/master/version-notes-and-issues.md)  
+[Secret Plan to let artists do business directly with their audiences](https://github.com/dloa/alexandria-docs/blob/master/Alexandria-for-artists.md)
