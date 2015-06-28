@@ -1,8 +1,7 @@
 ##Library Daemon (libraryd) Installation Instructions for Mac  
 
 ####1) Download the latest build
-If you are in the alpha testers Slack chatroom, it can be downloaded by clicking [here](https://dloa.slack.com/files/devonjames/F06E7PE77/alexandria_library_daemon-osx-20150616.zip)  
-If you are not in the chatroom but were given another link, use it instead. If you think you're in the chatroom,  but this link doesn't work, you aren't yet in the room; either accept the invite if one is still pending, or ask the Alexandria team for a new invite.   
+It can be downloaded by clicking [here](https://slack-files.com/T0457K60S-F06E7PE77-c684903ffb)  
 Unzip it to extract the folder `Alexandria_Library_Daemon`   
 
 ####2) Make sure your Florincoin wallet is fully synced and that you have enabled RPC-access to your wallet with a florincoin.conf file.  
