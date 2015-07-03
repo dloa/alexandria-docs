@@ -48,7 +48,7 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 2. Upgrade to Bitcoin Core v0.10
 3. Auto/scheduler keys backup feature
 
-####Pools (decentralized/tranparent/collaborative/collective-bargaining-based)
+####Decentralized, tranparent, collaborative, collective-bargaining-based Pools
 1. Florincoin mining pool to contribute to Alexandria's library index data-security 
 2. Filecoin mining pool to contribute to Alexandria's library content media availability
 3. Arbitrage pool for Florincoin, Filecoin & Bitcoin
