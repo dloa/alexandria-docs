@@ -22,20 +22,22 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 18. Native app for Android (through gateways, or local librarian modules if possible)
 19. Native app for iOS (through gateways)
 20. "Couch interface" (and 32-bit build) for [BitSeed](http://www.bitseed.org)
+21. Subscribe to publisher button (auto pin through Librarian Module: Distributor)
 
 ####Alexandria Librarian:
 1. Librarian (daemon loader/manager) tool-bar applet for Mac OSX, Windows, Linux 64-bit, Android (if possible), and Linux 32-bit (for [BitSeed](http://www.bitseed.org))
-2. Fix Librarian Module: Historian so that it works with APIs that include `&` and `?` characters in their URIs - [details](https://github.com/dloa/librarian-module_historian/issues/1)
-3. Upgrade Librarian Module: Historian to be able to capture web page archives on a periodic basis (to get plugged into the Internet Archive's Wayback Machine)
-4. Subscribe to publisher (auto pin)
-5. Librarian Module: Distributor
+2. Fix [Librarian Module: Historian](https://github.com/dloa/librarian-module_historian) so that it works with APIs that include `&` and `?` characters in their URIs - [details](https://github.com/dloa/librarian-module_historian/issues/1)
+3. Upgrade [Librarian Module: Historian](https://github.com/dloa/librarian-module_historian) to be able to also capture web page archives on a periodic basis (to get plugged into the Internet Archive's Wayback Machine)
+4. Librarian Module: Distributor (take individual pin requests from Alexandria browser and pin them until unpinned, and take "subscribe to publisher" requests from Alexandria browser and auto-pin all content published by the publisher)
+5. Librarian Module: History Patron - [details](https://github.com/dloa/librarian-module_history-patron)
+6. Librarian Module: Hasher (Florincoin blockchain PoW miner)
+7. Librarian Module: HashRentals (P2P scrypt miner rental market)
 
 ####Council of Librarians management app (or perhaps feature within Alexandria Browser app)
 1. Blockchain voting process (including Living Articles of Organization document)
 2. Multi-tiered chat platform (with comment links & permission-based chat-room access)
 3. Decentralized ID system w/ reputation management and optional pseudonymity)
 4. Blockchain: 100% premine, 1MM tokens, sidechain of Florincoin or 0% PoS
-5. 
 
 ####Serverside Software
 1. Florincoin web wallet (zero knowledge) based on Blockchain.info/LiteVault
@@ -45,3 +47,8 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 1. Fork in p2p messaging functionality [like Jumbucks wallets](http://getjumbucks.com/#wallets)
 2. Upgrade to Bitcoin Core v0.10
 3. Auto/scheduler keys backup feature
+
+####Pools (decentralized/tranparent/collaborative/collective-bargaining-based)
+1. Florincoin mining pool to contribute to Alexandria's library index data-security 
+2. Filecoin mining pool to contribute to Alexandria's library content media availability
+3. Arbitrage pool for Florincoin, Filecoin & Bitcoin
