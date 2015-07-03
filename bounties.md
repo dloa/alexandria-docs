@@ -24,6 +24,7 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 20. "Couch interface" (and 32-bit build) for [BitSeed](http://www.bitseed.org)
 21. Subscribe to publisher button (auto pin through Librarian Module: Distributor)
 22. Buy seeds functionality - [details](https://github.com/dloa/alexandria-browser/issues/14) - @JoyStream is a very good candidate for this functionality
+23. New artifact type - decentralized development bounties (for Alexandria or for anything) posting and awarding
 
 ####Alexandria Librarian:
 1. Librarian (daemon loader/manager) tool-bar applet for Mac OSX, Windows, Linux 64-bit, Android (if possible), and Linux 32-bit (for [BitSeed](http://www.bitseed.org))
