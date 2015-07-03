@@ -45,7 +45,7 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 2. Florincoin tipping bot for social media [Slack version can be found here](https://github.com/blocktech/slack_tipbot)
 
 ####Florincoin Wallet client
-1. Fork in p2p messaging functionality [like Jumbucks wallets](http://getjumbucks.com/#wallets)
+1. Fork in p2p messaging functionality [from Jumbucks wallet perhaps?](http://getjumbucks.com/#wallets)
 2. Upgrade to Bitcoin Core v0.10
 3. Auto/scheduler keys backup feature
 
