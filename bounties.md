@@ -33,7 +33,8 @@ This is meant to be an exhaustive list of every peice of functionality planned f
 6. Librarian Module: Hasher (Florincoin blockchain PoW miner)
 7. Librarian Module: HashRentals (P2P scrypt miner rental market)
 
-####Council of Librarians management app (or perhaps feature within Alexandria Browser app)
+####Council of Librarians management app
+#####(or perhaps simply additional functionality within the Alexandria browser app)
 1. Blockchain voting process (including Living Articles of Organization document)
 2. Multi-tiered chat platform (with comment links & permission-based chat-room access)
 3. Decentralized ID system w/ reputation management and optional pseudonymity)
