@@ -9,7 +9,7 @@ If you have not done so, click [here](https://github.com/dloa/alexandria-docs/bl
 
 ####3) Start the daemon
 In a new terminal window, enter `export F_USER=username`, and then `export F_TOKEN=password`.  These fields must match the username and password that you used in `florincoin.conf`.  
-In the same terminal window, `cd` into the `Alexandria_Library_Daemon` folder, and enter `./libraryd` to launch Alexandria's library daemon.
+In the same terminal window, `cd` into the `Alexandria_Library_Daemon` folder, and enter `./libraryd-osx` to launch Alexandria's library daemon.
 
 <pre> <code>
 $ export F_USER=[myusername]
