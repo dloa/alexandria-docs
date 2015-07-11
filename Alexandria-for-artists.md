@@ -5,7 +5,11 @@ Recently a spat played out on social media between Taylor Swift and Apple over i
     Apple Music will not be paying writers, producers, or artists for those three months. I find it to be 
     shocking, disappointing, and completely unlike this historically progressive and generous company.
 
-But she wasn’t calling for an artist boycott of the service, she was simply pushing for Apple to reconsider its position: it’s not too late to change this policy and change the minds of those in the music industry who will be deeply and gravely affected by this. We don’t ask you for free iPhones. Please don’t ask us to provide you with our music for no compensation.
+But she wasn’t calling for an artist boycott of the service, she was simply pushing for Apple to reconsider its position:
+
+    it’s not too late to change this policy and change the minds of those in the music industry who will be 
+    deeply and gravely affected by this. We don’t ask you for free iPhones. Please don’t ask us to provide 
+    you with our music for no compensation.
 
 Incredibly enough, in less than a day (on a Sunday and a holiday for that matter), Apple reversed its policy and let Taylor know over Twitter:
 
