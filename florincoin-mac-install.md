@@ -1,7 +1,7 @@
 ##Florincoin-QT Installation Instructions for Mac  
 
 ####1) Download Florincoin wallet
-Visit [florincoin.org](http://florincoin.org/) to download the current OSX build.  
+Visit [florincoin.org](http://florincoin.org/) to download the current OSX build. Open it so that it creates the necessary folders for the next step, wait about a minute, and then quit and move on to step 2.  
 
 ####2) Enable RPC-access to your Florincoin-QT wallet with a florincoin.conf file    
 In the Finder, pull down the `Go` menu and chose `Go to Folder...` and paste this path `~/Library/Application Support/Florincoin/`  
