@@ -1,0 +1,54 @@
+[global monitoring]
+hdd space
+http requests
+processor
+cpu
+
+[ipfs round robin]
+thalia 
+
+gateway status
+total http requests
+backup ipfs status
+
+
+[ipfsgateways]
+
+calliope
+clio
+terpsichore
+
+dockerstatus
+total download bandwidth
+total upload bandwith
+http requests
+remaining hdd space
+
+[libraryd]
+hypatia       45.55.246.10        4 GB        30 GB           NYC3            http://libraryd.alexandria.media/
+//also includes florincoind, bitcoind, tradebot, and flo-market-info
+
+florincoind status
+number of tx
+florincoin balance 
+bitcoindstatus
+number of tx
+bitcoind balance
+tradebot status
+number of trade requests (redundant?)
+flo-market-info status
+flo-market-info output cause why not
+
+[musicbrainz]
+apollo        45.55.183.226
+lemp status
+
+[metrics]
+thoth         162.243.139.235
+
+[alexandria.media]
+cleopatra     192.241.219.201 
+
+[florin]
+Mnemosyne     192.34.62.214  
+some of the stuff from libraryd will go here
