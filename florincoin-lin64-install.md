@@ -31,10 +31,11 @@ Downloading the full Florincoin blockchain takes a while. If you have IPFS insta
 
 a.) Navigate to `~/.florincoin/'
 b.) Make sure your IPFS daemon is running, and run the following command: 
-ipfs name resolve QmfYRn7eAHz9DtzCz8oVYjC6Y7geUSYBkz6iG3CVdb56W9
+$ ipfs name resolve QmfYRn7eAHz9DtzCz8oVYjC6Y7geUSYBkz6iG3CVdb56W9
 ipfs will output a hash.
-copy hash, and paste into the command:
-ipfs get [copied hash]
+c.) copy hash, and paste into the command:
+$ ipfs get [copied hash]
+4.) feel free to delete bootstrap.dat.old after the blockchain sync has finished.
 
 
 ####4) Send a comment!  
