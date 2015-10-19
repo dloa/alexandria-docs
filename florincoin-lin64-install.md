@@ -12,7 +12,7 @@ Click [here](https://slack-files.com/T0457K60S-F06B895SM-fba5b0403d) to download
 ####3) Enable RPC-access to your Florincoin-QT/florincoind wallet with a florincoin.conf file    
 Navigate to `~/.florincoin/`  
   
-Create a new config file called `florincoin.conf` that includes the following code block (or use the provided sample file). Please note, if you create this file with textedit, it may attempt to hide a .txt extension on the file, which will cause it to fail.  
+Create a new config file called `florincoin.conf` that includes the following code block (or use the provided sample file).   
 <pre><code>
 rpcuser=username
 rpcpassword=password
@@ -25,6 +25,17 @@ daemon=1
 txindex=1</code></pre>
 
 Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` and relaunch the Florincoin-QT (or florincoind) wallet and **let it fully sync**. This may take a few hours (or a few days if your network is slow)   
+
+###Optional: bootstrap with IPFS
+Downloading the full Florincoin blockchain takes a while. If you have IPFS installed, you can speed this process up dramatically. To do this: 
+
+a.) Navigate to `~/.florincoin/'
+b.) Make sure your IPFS daemon is running, and run the following command: 
+ipfs name resolve QmfYRn7eAHz9DtzCz8oVYjC6Y7geUSYBkz6iG3CVdb56W9
+ipfs will output a hash.
+copy hash, and paste into the command:
+ipfs get [copied hash]
+
 
 ####4) Send a comment!  
 Open your `Alexandria` browser, select `Wallet` from the user menu, and enter the username and password you used in your `florincoin.conf` file. You Alexandria browser now has access to your wallet, so you can send and receive Flo, you can use `trade-bot` to exchange BTC for FLO, and you can include comments with any tips you send to publishers!
