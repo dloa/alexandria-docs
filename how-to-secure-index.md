@@ -11,6 +11,19 @@ To answer that question, first we must discuss how users will interact with Alex
 
 We have a plan. It requires a few components, so we'll start out by explaining each of them.  
 
-Component 1 - The DLOA Florincoin Mining Pool   
-Component 2 - The DLOA Scrypt Miner Rental Service  
+Component 1 - The DLOA Scrypt Miner Rental Service  
+Component 2 - The DLOA Florincoin Mining Pool   
 Component 3 - Publishing with TradeBot  
+
+####The DLOA Scrypt Miner Rental Service
+Built into Librarian will be a portal to the rig rental APIs of miningrigrentals.com and betarigs.com that allows users to set a weekly rental budget in BTC and then forget about it, secure in the knowledge that Librarian will rent the best price rigs available each week. Eventually, Alexandria itself will host a p2p rental service that does not rely on these 3rd party services, but we expect to continue to support them as well at that time.  
+
+
+####The DLOA Florincoin Mining Pool   
+http://pool.alexandria.media  
+When the DLOA Florincoin Mining Pool wins a block, it will attach a tx-comment to the block reward payouts to miners. This tx-comment will include the following info:   
+`flo_current_hashrate` - sourced from http://hashreport.alexandria.media:5831/getMiningInfo: `networkhashps`  
+`pool_24h_avg_hashrate` - calculated using data from http://pool.alexandria.media/api/pool_stats: `time` & `hashrate`
+`MRR_scrypt_last10_avg_cost_per_MHs` - sourced from https://www.miningrigrentals.com/api/v1/rigs?method=list&type=scrypt&showoff=no: `last_10`  
+`BR_scrypt_last10_avg_cost_per_MHs` - sourced from betarigs.com if it ever comes back online   
+
