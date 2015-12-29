@@ -11,6 +11,6 @@ To answer that question, first we must discuss how users will interact with Alex
 
 We have a plan. It requires a few components, so we'll start out by explaining each of them.  
 
-Component 1 - The DLOA Florincoin Mining Pool  
-Component 2 - The DLOA Scrypt Miner Rental Service
-Component 3 - Publishing with TradeBot
+Component 1 - The DLOA Florincoin Mining Pool   
+Component 2 - The DLOA Scrypt Miner Rental Service  
+Component 3 - Publishing with TradeBot  
