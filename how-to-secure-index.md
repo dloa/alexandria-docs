@@ -16,7 +16,7 @@ Component 2 - The DLOA Florincoin Mining Pool
 Component 3 - Publishing with TradeBot  
 
 ####The DLOA Scrypt Miner Rental Service
-Built into Librarian will be a portal to the rig rental APIs of http://www.miningrigrentals.com and http://www.betarigs.com that allows users to set a weekly rental budget in BTC and then forget about it, secure in the knowledge that Librarian will rent the best priced rigs available each week. Eventually, Alexandria itself will host a p2p rental service that does not rely on these 3rd party services, but we plan to continue to support them as well at that time.  
+Built into Librarian will be a portal to the rig rental APIs of http://www.miningrigrentals.com, http://www.nicehash.com and http://www.betarigs.com that allows users to set a weekly rental budget in BTC and then forget about it, secure in the knowledge that Librarian will rent the best priced rigs available each week. Eventually, Alexandria itself will host a p2p rental service that does not rely on these 3rd party services, but we plan to continue to support them as well at that time.  
 
 ####The DLOA Florincoin Mining Pool   
 http://pool.alexandria.media  
@@ -24,6 +24,7 @@ When the DLOA Florincoin Mining Pool wins a block, it will attach a tx-comment t
 `flo_current_hashrate` - sourced from http://hashreport.alexandria.media:5831/getMiningInfo: `networkhashps`  
 `pool_24h_avg_hashrate` - calculated using data from http://pool.alexandria.media/api/pool_stats: `time` & `hashrate`
 `MRR_scrypt_last10_avg_cost_per_MHs` - sourced from https://www.miningrigrentals.com/api/v1/rigs?method=list&type=scrypt&showoff=no: `last_10`  
+`NH_scrypt_last10_avg_cost_per_MHs` - sourced from https://www.nicehash.com/api?method=stats.global.24h&algo=1
 `BR_scrypt_last10_avg_cost_per_MHs` - sourced from betarigs.com if it ever comes back online   
 
 ####Publishing with TradeBot
