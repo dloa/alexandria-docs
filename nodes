@@ -10,7 +10,7 @@ terpsichore   159.203.11.69       1 GB        30 GB           TOR1            ht
 
 [libraryd]
 hypatia       45.55.246.10        4 GB        30 GB           NYC3            http://libraryd.alexandria.media
-//also includes florincoind, bitcoind, tradebot, and flo-market-info
+//also includes florincoind, bitcoind
 
 [musicbrainz]
 apollo        45.55.183.226       512 MB      20 GB           NYC3            
