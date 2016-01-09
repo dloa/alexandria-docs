@@ -1,4 +1,4 @@
-[node-name]   [ip]                [ram]       [storage]       [location]      [domain]                                [public APIs]
+[node-name]   [ip]                [ram]       [storage]       [location]      [domain]
 
 [ipfsroundrobin]
 thalia        45.55.16.82         2 GB        20 GB           SFO1            http://ipfs.alexandria.media
@@ -32,4 +32,4 @@ centimanes    188.166.6.99        2 GB        40 GB           AMS3            ht
 mnemosyne     163.172.13.60       8 GB        120 GB          online.net      http://tradebot.alexandria.media
 
 [blocktech]
-imhotep       104.131.33.249      512 MB      20 GB           NYC3
+imhotep       104.131.33.249      512 MB      20 GB           NYC3            http://www.blocktech.com
