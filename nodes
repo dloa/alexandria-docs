@@ -1,28 +1,29 @@
-[node-name]   [ip]                [ram]       [storage]       [location]      [public APIs]
+[node-name]   [ip]                [ram]       [storage]       [location]      [domain]                                [public APIs]
 
 [ipfsroundrobin]
 thalia        45.55.16.82         2 GB        20 GB           SFO1            http://ipfs.alexandria.media
 
 [ipfsgateways]
-calliope      46.101.230.105      1 GB        30 GB           FRA1
-clio          46.101.1.65         1 GB        20 GB           LON1
-terpsichore   159.203.11.69       1 GB        30 GB           TOR1
+calliope      46.101.230.105      1 GB        30 GB           FRA1            http://calliope.alexandria.media
+clio          46.101.1.65         1 GB        20 GB           LON1            http://clio.alexandria.media
+terpsichore   159.203.11.69       1 GB        30 GB           TOR1            http://terpsichore.alexandria.media
 
 [libraryd]
 hypatia       45.55.246.10        4 GB        30 GB           NYC3            http://libraryd.alexandria.media
 //also includes florincoind, bitcoind, tradebot, and flo-market-info
 
 [musicbrainz]
-apollo        45.55.183.226       512 MB      20 GB           NYC3
+apollo        45.55.183.226       512 MB      20 GB           NYC3            
 
 [metrics]
-thoth         162.243.139.235     512 MB      20 GB           SFO1
+thoth         162.243.139.235     512 MB      20 GB           SFO1            http://thoth.alexandria.media
 
 [alexandria.media]
 cleopatra     192.241.219.201     512 MB      20 GB           SFO1            http://alexandria.media
 
 [florin]
 mnemosyne     192.34.62.214       1 GB        30 GB           NYC1            http://florincoin.alexandria.media
+                                                                              http://hashreport.alexandria.media
 
 [pool]
 centimanes    188.166.6.99        2 GB        40 GB           AMS3            http://pool.alexandria.media
