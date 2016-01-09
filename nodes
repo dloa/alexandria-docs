@@ -22,8 +22,11 @@ thoth         162.243.139.235     512 MB      20 GB           SFO1            ht
 cleopatra     192.241.219.201     512 MB      20 GB           SFO1            http://alexandria.media
 
 [florin]
-mnemosyne     192.34.62.214       1 GB        30 GB           NYC1            http://florincoin.alexandria.media
+tartarus      192.34.62.214       1 GB        30 GB           NYC1            http://florincoin.alexandria.media
                                                                               http://hashreport.alexandria.media
 
 [pool]
 centimanes    188.166.6.99        2 GB        40 GB           AMS3            http://pool.alexandria.media
+
+[tradebot]
+mnemosyne     163.172.13.60                                   online.net      http://tradebot.alexandria.media
