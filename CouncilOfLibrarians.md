@@ -47,7 +47,7 @@ A living AoO will be drafted which contains all of the rules for voting, a descr
 
 
 ####Blockchain Properties
-1,000,000 coins, all issued at genesis block.   
-Proof-of-Stake, 0% interest. (perhaps 1% to recoup coins lost over time?)   
-TX coment coin: 1kb of plaintext can be sent with each transaction with no fee.   
-Blockchain voting: X% share of tokens = X% of vote (1 token = 1/10,000% of total vote)
+TBD coins, all issued at genesis block.   
+Considering a mix of NXT assets, XCP assets & Bitshares assets to ensure long term redundancy (if POS turns out to simply be unscalable (or too vulnerable to attack at scale) and NXT goes to 0, BTX and BTS are unaffected, if BTC goes to 0, so does NXT's POW, but NXT & POS are are unaffected, and so on)   
+Voting tokens should either be free or have a cost payable in another token only. If a user must exhaust their ownership in order to share their voice, that's no good.  
+Blockchain voting: X% share of tokens = X% of vote 
