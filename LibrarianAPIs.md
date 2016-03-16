@@ -34,3 +34,11 @@ l) A new artifact should appear in the results to *GET* api requests to your loc
 ####5. MineBot  
 
 ####6. HashReport
+
+####7. Get data for a single artifact only
+a) Send a *POST* api request to your local **Libraryd** *search* endpoint ([http://localhost:41289/alexandria/v1/search](http://localhost:41289/alexandria/v1/search)) with this data:  
+```{
+  "protocol":"media",
+  "search-on":"txid",
+  "search-for":"$txidOfSpecificArtifact"
+}```
