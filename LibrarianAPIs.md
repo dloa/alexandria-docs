@@ -12,7 +12,7 @@ g) A new transaction will be added to the next Florincoin block mined with the P
 h) A new publisher should appear in the results to *GET* api requests to your local **Libraryd** *publisher/all* endpoint ([http://localhost:41289/alexandria/v1/publisher/get/all](http://localhost:41289/alexandria/v1/publisher/get/all)) or to DLOA's web mirror of this endpoint ([http://libraryd.alexandria.media/alexandria/v1/publisher/get/all](http://libraryd.alexandria.media/alexandria/v1/publisher/get/all))
 
 ####2. Publish a new Artifact
-After user adds their chosen files, fills out fields on form and hits submit,
+After user adds their chosen files, fills out fields on form and hits submit,  
 a) **Florincoind** checks if users wallet has enough tokens;  
 b) If False, first complete stage 4, and then continue on to stage 2d  
 c) If True, continue on to stage 2d  
