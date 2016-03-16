@@ -32,6 +32,5 @@ l) A new artifact should appear in the results to *GET* api requests to your loc
 ####4. TradeBot
 
 ####5. MineBot  
-[pool.alexandria.media](http://pool.alexandria.media)
 
 ####6. HashReport
