@@ -41,4 +41,7 @@ a) Send a *POST* api request to your local **Libraryd** *search* endpoint ([http
   "protocol":"media",
   "search-on":"txid",
   "search-for":"$txidOfSpecificArtifact"
-}```
+}```  
+
+####8. Interact directly with the FLO blockchain over the web  
+[http://flovault.dloa.io/wallet/](http://flovault.dloa.io/wallet/)
