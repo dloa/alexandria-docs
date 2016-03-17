@@ -45,7 +45,7 @@ a) Send a *POST* api request to your local **Libraryd** *search* endpoint ([http
 
 ####8. Interact directly with the FLO blockchain over the web  
 [http://flovault.dloa.io/wallet/](http://flovault.dloa.io/wallet/)  
-Create Wallet: Send POST api to [http://flovault.dloa.io/wallet/create](http://flovault.dloa.io/wallet/create) Unknown schema to send identifier and password    
+Create Wallet: Send POST api to [http://flovault.dloa.io/wallet/create](http://flovault.dloa.io/wallet/create) Unknown schema to send password    
 Login to Wallet: Send POST api to [http://flovault.dloa.io/wallet/readaccount](http://flovault.dloa.io/wallet/readaccount) Unknown schema to send identifier and password  
 Get Wallet Balance: [http://flovault.dloa.io/wallet/getbalances/*$floaddress*](http://flovault.dloa.io/wallet/getbalances/*$floaddress*)  
 Get Wallet Transactions: [http://flovault.dloa.io/wallet/addresstxs/*$floaddress*](http://flovault.dloa.io/wallet/addresstxs/*$floaddress*)  
