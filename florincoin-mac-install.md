@@ -11,7 +11,7 @@ Create a new config file called `florincoin.conf` that includes the following co
 rpcuser=username
 rpcpassword=password
 rpcallowip=127.0.0.1
-rpcallowip=192.168.*.*
+rpcallowip=192.168.0.0/16
 addnode=54.209.141.153
 rpcport=18322
 server=1
