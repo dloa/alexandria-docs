@@ -11,14 +11,14 @@ Create a new config file called `florincoin.conf` that includes the following co
 rpcuser=username
 rpcpassword=password
 rpcallowip=127.0.0.1
-rpcallowip=192.168.*.*
+rpcallowip=192.168.0.0/16
 addnode=54.209.141.153
 rpcport=18322
 server=1
 daemon=1
 txindex=1</code></pre>
 
-Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Save `florincoin.conf` - Please note, if you create this file with textedit, it may attempt to hide a .txt extension on the file, which will cause it to fail. Assuming the file has the proper name on it, relaunch the Florincoin-QT wallet and **let it fully sync**. This may take a few hours (or a few days if your network is slow)   
+Remember, it is **extremely important** that you change the username and password to something secure. Store this username and password somewhere secure but retrievable, as you will need it to access wallet functions within Alexandria. Note that rpcuser must match F_USER environment variable and that rpcpassword must match F_TOKEN environment variable. Save `florincoin.conf` - Please note, if you create this file with textedit, it may attempt to hide a .txt extension on the file, which will cause it to fail. Assuming the file has the proper name on it, relaunch the Florincoin-QT wallet and **let it fully sync**. This may take a few hours (or a few days if your network is slow)   
 
 ###Optional: bootstrap with IPFS
 Downloading the full Florincoin blockchain takes a while. If you have IPFS install
