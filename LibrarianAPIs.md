@@ -45,7 +45,17 @@ a) Send a *POST* api request to your local **Libraryd** *search* endpoint ([http
 
 ####8. Interact directly with the FLO blockchain over the web  
 [http://flovault.dloa.io/wallet/](http://flovault.dloa.io/wallet/)  
-Create Wallet: Send POST api to [http://flovault.dloa.io/wallet/create](http://flovault.dloa.io/wallet/create) Unknown schema to send password    
+Create Wallet: Send POST to [http://flovault.dloa.io/wallet/create](http://flovault.dloa.io/wallet/create) The only parameter to `/wallet/create` is an optional email address, the response contains an `identifier` for later accessing the account and the `shared_key` to be used in combination with the users password to access the wallet
+
+```
+curl "http://192.34.62.214:3000/wallet/create" --compressed --data "email=me"%"40example.com"
+{
+  "identifier":"f82150e-0288b826-7f41db7-2fb00fe",
+  "shared_key":"c4ca5c7ba94d7e4462a54405b4aae117e1d1f0ede5a9173871304c24c34c3dd66c804fbb3e5e578c312d4115d91393fa",
+  "error":false
+}
+```  
+
 Login to Wallet: Send POST api to [http://flovault.dloa.io/wallet/readaccount](http://flovault.dloa.io/wallet/readaccount) Unknown schema to send identifier and password  
 Get Wallet Balance: [http://flovault.dloa.io/wallet/getbalances/*$floaddress*](http://flovault.dloa.io/wallet/getbalances/*$floaddress*)  
 Get Wallet Transactions: [http://flovault.dloa.io/wallet/addresstxs/*$floaddress*](http://flovault.dloa.io/wallet/addresstxs/*$floaddress*)  
