@@ -45,16 +45,53 @@ a) Send a *POST* api request to your local **Libraryd** *search* endpoint ([http
 
 ####8. Interact directly with the FLO blockchain over the web  
 [http://flovault.dloa.io/wallet/](http://flovault.dloa.io/wallet/)  
-Create Wallet: Send POST to [http://flovault.dloa.io/wallet/create](http://flovault.dloa.io/wallet/create) The only parameter to `/wallet/create` is an optional email address, the response contains an `identifier` for later accessing the account and the `shared_key` to be used in combination with the users password to access the wallet
+Create Wallet: `POST /wallet/create`  
+The only parameter to `/wallet/create` is an optional email address, the response contains an `identifier` for later accessing the account and the `shared_key` to be used in combination with the users password to access the wallet
 
 ```
-curl "http://192.34.62.214:3000/wallet/create" --compressed --data "email=me"%"40example.com"
+curl "http://192.34.62.214:3000/wallet/create" --compressed --data "email=me%40example.com"
 {
-  "identifier":"f82150e-0288b826-7f41db7-2fb00fe",
-  "shared_key":"c4ca5c7ba94d7e4462a54405b4aae117e1d1f0ede5a9173871304c24c34c3dd66c804fbb3e5e578c312d4115d91393fa",
+  "identifier":"c6ecbe7-4d6ebeb9-ebde5aa-ffbd51e",
+  "shared_key":"f28eacd9acf886975b2f6b447f42ace1b93d336fd096b4b31b0026f646a29d06b3d4a6e452cfce1b3c5f39b2bb11f967",
   "error":false
 }
 ```  
+
+Obtain Encryption/2FA Details: `GET /wallet/checkload/<identifier>`  
+```
+curl "http://192.34.62.214:3000/wallet/checkload/c6ecbe7-4d6ebeb9-ebde5aa-ffbd51e" --compressed
+{
+	"identifier": "c6ecbe7-4d6ebeb9-ebde5aa-ffbd51e",
+	"gauth_enabled": false,
+	"encryption_settings": {
+		"algo": "aes",
+		"iterations": 5
+	},
+	"auth_key_isvalid": true
+}
+```
+
+Load Wallet: `GET /wallet/load/<identifier>`
+```
+curl "http://192.34.62.214:3000/wallet/load/c6ecbe7-4d6ebeb9-ebde5aa-ffbd51e" --compressed
+{
+	"error": false,
+	"wallet": "U2FsdGVkX18N6gqdhqfgedEfoCXg9sHRHh8dZ669QvunPb9J9KYvmuQpaSlt3R+ZWDSQUt0tvJH1dfxOeyHi/JUXvxmRvGhWFQiTmLQmZwIOmSN/W1cqSGo7wOk1tjOSz29xr0gXCQqYIa6uCBBW2dZmAaryfJmXjd7sGQwhEz7rwWISB2XwI8p35bxHyfEVImYzvRQOSA6qvVbKg9Tnhg=="
+}
+```
+
+Read Account: `POST /wallet/read_account`  
+```
+curl "http://192.34.62.214:3000/wallet/read_account" --compressed --data "identifier=c6ecbe7-4d6ebeb9-ebde5aa-ffbd51e&shared_key=f28eacd9acf886 975b2f6b447f42ace1b93d336fd096b4b31b0026f646a29d06b3d4a6e452cfce1b3c5f39b2bb11f967"
+{
+  "error":false,
+  "data":
+  {
+    "email":"me@example.com"
+  }
+}
+```
+
 
 Login to Wallet: Send POST api to [http://flovault.dloa.io/wallet/readaccount](http://flovault.dloa.io/wallet/readaccount) Unknown schema to send identifier and password  
 Get Wallet Balance: [http://flovault.dloa.io/wallet/getbalances/*$floaddress*](http://flovault.dloa.io/wallet/getbalances/*$floaddress*)  
