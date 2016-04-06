@@ -9,23 +9,18 @@ clio          46.101.1.65         1 GB        20 GB           LON1            ht
 terpsichore   159.203.11.69       1 GB        30 GB           TOR1            http://terpsichore.alexandria.media
 
 [libraryd]
-hypatia       45.55.246.10        4 GB        30 GB           NYC3            http://libraryd.alexandria.media
-//also includes florincoind, bitcoind
-
-[musicbrainz]
-apollo        45.55.183.226       512 MB      20 GB           NYC3            
-
-[metrics]
-thoth         162.243.139.235     512 MB      20 GB           SFO1            http://thoth.alexandria.media
+hypatia       45.55.246.10        4 GB        30 GB           NYC3            http://libraryd.alexandria.media API endpoints
 
 [alexandria.media]
-cleopatra     192.241.219.201     512 MB      20 GB           SFO1            http://alexandria.media
+cleopatra     192.241.219.201     512 MB      20 GB           SFO1            http://alexandria.media website
 
 [florin]
 tartarus      192.34.62.214       1 GB        30 GB           NYC1            http://florincoin.alexandria.media
-                                                                              http://hashreport.alexandria.media
+                                                                              http://florinsight.dloa.io
+                                                                              http://flovault.dloa.io
+                                                                              http://hashreport.alexandria.media API endpoints
 
-[pool]
+ipfs[pool]
 centimanes    188.166.6.99        2 GB        40 GB           AMS3            http://pool.alexandria.media
 
 [tradebot]
@@ -33,3 +28,11 @@ mnemosyne     163.172.13.60       8 GB        120 GB          online.net      ht
 
 [blocktech]
 imhotep       104.131.33.249      512 MB      20 GB           NYC3            http://www.blocktech.com
+
+offline for now
+[musicbrainz]
+apollo        45.55.183.226       512 MB      20 GB           NYC3            
+
+[metrics]
+thoth         162.243.139.235     512 MB      20 GB           SFO1            http://thoth.alexandria.media
+
