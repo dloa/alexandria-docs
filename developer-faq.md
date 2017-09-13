@@ -46,16 +46,17 @@ This allows our Autominer app to be told to only mine when conditions are such t
 Yep, that's part of the plan too, but not yet implemented. For the time being, OIP uses a requirement that all Retailer nodes run the pinbot software which balances the storage needs of all of the files in the shared media layer across all retailers. When it comes online, we intend to use [Filecoin](http://filecoin.io/) to let Publishers pay for higher performance levels for their files, as the protocol will only ensure safe retreivability of all published files and cannot necessarily, on its own, ensure a good playback experience. However, since most retailers generally like for their users to have an enjoyable experience on their platform, we expect that simple commercial interests will ensure that all published files have enough pinners (IPFS for seeds) to provide an enjoyable experience to end users.  
 
 #### API Docs?
-Some of these may be out of date, so please ask if one isn't behaving as expected. 
-[Hosted](https://api.alexandria.io/docs/) | [GitHub](https://github.com/dloa/slate)
+Some of these may be out of date, so please ask if one isn't behaving as expected.   
+[Hosted](https://api.alexandria.io/docs/) | [GitHub](https://github.com/dloa/slate)  
+
 Missing end points:  
 • Historian summary, for tradebot transactions (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))  
-• searchTXcomment (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))
-• index summary [endpoint](https://api.alexandria.io/alexandria/v2/info)
-• calculate publish fee (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))
-• get all retailers [endpoint](https://api.alexandria.io/alexandria/v2/retailer/get/all)
-• get all promoters [endpoint](https://api.alexandria.io/alexandria/v2/promoter/get/all)
-• get all autominers [endpoint](https://api.alexandria.io/alexandria/v2/autominer/get/all)
+• searchTXcomment (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))  
+• index summary [endpoint](https://api.alexandria.io/alexandria/v2/info)  
+• calculate publish fee (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))  
+• get all retailers [endpoint](https://api.alexandria.io/alexandria/v2/retailer/get/all)  
+• get all promoters [endpoint](https://api.alexandria.io/alexandria/v2/promoter/get/all)  
+• get all autominers [endpoint](https://api.alexandria.io/alexandria/v2/autominer/get/all)  
 • get all autominer pools [endpoint](https://api.alexandria.io/alexandria/v2/autominerpool/get/all)
 
 #### Dev Roadmap?
