@@ -49,10 +49,10 @@ Yep, that's part of the plan too, but not yet implemented. For the time being, O
 Some of these may be out of date, so please ask if one isn't behaving as expected. 
 [Hosted](https://api.alexandria.io/docs/) | [GitHub](https://github.com/dloa/slate)
 Missing end points:  
-• Historian summary, for tradebot transactions (post endpoint, see postman collection)  
-• searchTXcomment (post endpoint, see postman collection)
+• Historian summary, for tradebot transactions (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))  
+• searchTXcomment (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))
 • index summary [endpoint](https://api.alexandria.io/alexandria/v2/info)
-• calculate publish fee (post endpoint, see postman collection)
+• calculate publish fee (post endpoint, see [postman collection](https://github.com/dloa/alexandria-docs/blob/master/OIP.postman_collection.json.zip?raw=true))
 • get all retailers [endpoint](https://api.alexandria.io/alexandria/v2/retailer/get/all)
 • get all promoters [endpoint](https://api.alexandria.io/alexandria/v2/promoter/get/all)
 • get all autominers [endpoint](https://api.alexandria.io/alexandria/v2/autominer/get/all)
