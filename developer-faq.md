@@ -59,8 +59,9 @@ Missing end points:
 • get all autominers [endpoint](https://api.alexandria.io/alexandria/v2/autominer/get/all)  
 • get all autominer pools [endpoint](https://api.alexandria.io/alexandria/v2/autominerpool/get/all)
 
-#### Dev Roadmap?
-[Trello Board](https://trello.com/b/2178eVZH/next-release-v080) (Ask for an invite if you can't see this)
+#### Dev Roadmap and past milestones?
+[Trello Board of Dev Priorities](https://trello.com/b/2178eVZH/next-release-v080) (Ask for an invite if you can't see this)  
+[Wiki of Past Milestones](https://github.com/oipwg/wiki/wiki/Milestones-and-Roadmap)
 
 #### Dev Chat?
 [Slack](dloaslack.bitspill.net) we're closing this down very soon, but its where everyone is currently  
